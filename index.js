@@ -3,7 +3,7 @@ var app = express();
 
 app.get('/', function(req, res){
     res.json({
-        "IP" : req.ip.split(':')[2],
+        "IP" : req.ip.split(':')[3],
         "Language" : req.get('accept-language').split(',')[0],
         "Operating System" : req.get('user-agent').split(/\(|\)/g)[1],
     });

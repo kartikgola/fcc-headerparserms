@@ -27,6 +27,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(3000, function(){
+app.listen(process.env.port || 3000, function(){
     console.log("Now listening on port 3000");
 });

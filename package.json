@@ -1,0 +1,23 @@
+{
+  "name": "fcc-headerparserms",
+  "version": "1.0.0",
+  "description": "FreeCodeCampe header parser MS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartikgola/fcc-headerparserms.git"
+  },
+  "author": "Kartik Gola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kartikgola/fcc-headerparserms/issues"
+  },
+  "homepage": "https://github.com/kartikgola/fcc-headerparserms#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
